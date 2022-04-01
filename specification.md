@@ -17,10 +17,10 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
   9. left channel volume control via button on long edge of device
   10. right channel volume control via buttons on long edge of device
   11. all connectors to be through hole so board can be supplied without these in place to wire in externally
-  12. use one C Lithium battery, size will vary bu device connecting using standard connector
+  12. use one C Lithium battery, size will vary but connected using standard connector
   13. spare IO to header
   14. soft power switch
-  15. Jack connectors to be on opposite edge to 
+  15. jack connectors to be on short edge
   16. 4 off M3 mounting holes
   17. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
   18. enable Speakup to act as a charger when connected to the host tablet via cable.
