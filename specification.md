@@ -25,6 +25,8 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
   17. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
   18. enable Speakup to act as a charger when connected to the host tablet via cable.
   19. enable Speakup to act as a keyboard (using the assistive technology switch inputs) when connected to the host tablet via cable
+  20. sound channels programmable individually, left/right with independent volume control. QUERY/CONFIRM
+  21. dip switches to assign characters to assistive technology switch inputs QUERY/CONFIRM
 
 ## Hardware Requirements
 
