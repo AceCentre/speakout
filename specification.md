@@ -10,23 +10,21 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
   2. connect to tablet using Bluetooth
   3. volume to xdB TBC (equivalent to i13 https://www.tobiidynavox.com/products/i-series?tab=3)
   4. no lag or delay between input and output (for example for the Bluetooth device to 'wake')
-  5. two switch input (see Switch Interface Wired project)
-  6. USB-C connector on each short edge, centrally positioned.
-  7. connect to host device via Bluetooth 
-  8. two 3.5mm jack for assistive technology switch
-  9. speaker unit to be 3W
-  10. left channel volume control via button on long edge of device
-  11. right channel volume control via buttons on long edge of device
-  12. all connectors to be through hole so board can be supplied without these in place to wire in externally
-  13. use one C Lithium battery, size will vary bu device connecting using standard connector
-  14. spare IO to header
-  15. soft power switch
-  16. PCB contained within a 50mm wide x 90mm wide rectangle so it is smaller than iPod Touch (58.6 x 123.4mm)
-  17. Jack connectors to be on opposite edge to 
-  18. 4 off M3 mounting holes
-  19. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
-  20. enable Speakup to act as a charger when connected to the host tablet via cable.
-  21. enable Speakup to act as a keyboard (using the assistive technology switch inputs) when connected to the host tablet via cable
+  5. two switch inputs (see Switch Interface Wired project) using 3.5mm through hole jacks.
+  6. PCB contained within a 50mm wide x 90mm wide rectangle so it is smaller than iPod Touch (58.6 x 123.4mm)
+  7. USB-C connector on each short edge, centrally positioned.
+  8. speaker unit to be 3W
+  9. left channel volume control via button on long edge of device
+  10. right channel volume control via buttons on long edge of device
+  11. all connectors to be through hole so board can be supplied without these in place to wire in externally
+  12. use one C Lithium battery, size will vary bu device connecting using standard connector
+  13. spare IO to header
+  14. soft power switch
+  15. Jack connectors to be on opposite edge to 
+  16. 4 off M3 mounting holes
+  17. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
+  18. enable Speakup to act as a charger when connected to the host tablet via cable.
+  19. enable Speakup to act as a keyboard (using the assistive technology switch inputs) when connected to the host tablet via cable
 
 ## Hardware Requirements
 
