@@ -48,3 +48,9 @@ To be confirmed, but it is envisaged that:
   - two versions of the PCB will be manufactured, one with all the components attached, one with all but one of the USB-C connectors so those components can be positioned elsewhere on the device.
 
 Target assembled PCB price £50.
+
+## Additional Information
+
+### Audio Configuration
+
+![Tux, the Linux mascot](/assets/audio-config.png)
