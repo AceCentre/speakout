@@ -10,28 +10,25 @@ Refer to [PCB Layout below](https://github.com/AceCentre/speakup/blob/main/speci
 
 1. amplify sound input from tablet and provide access to device
 2. connect to tablet using Bluetooth
-4. no lag or delay between input and output (for example for the Bluetooth device to 'wake')
-5. two switch inputs using 3.5mm through hole jacks (SW1 and SW2) to send character to host device (typically SPACE and ENTER)
-6. PCB contained within a 60mm wide x 90mm wide rectangle
-8. speaker output 5W per channel
-9. connections positioned as per dxf file, see PCB Notes below
-10. volume control on each of two channels to be controlled by an 'Up' and 'Down' tactile button
-11. all connectors to be through hole so board can be supplied without these in place and connectors located on secondary boards elsewhere within a larger enclosure
-12. use one C Lithium battery, size will vary but connected using standard connector
-13. spare IO to be routed through header to the Adafruit Feather specification, see PCB Notes below
-14. soft power switch (PWR)
-16. mounting holes positioned as per dxf file
-17. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
-18. enable Speakup to act as a charger when connected to the host tablet via cable
-19. enable Speakup to act as a keyboard or mouse (using the assistive technology switch inputs and addtional IO) when connected to the host tablet via cable
-20. two 3.5mm jack headphone jack sockets:
-  1. HEAD1 will output one channel to the headphones when connected and one channel to the speaker
-  2. HEAD2 will output both channels to the headphones when connected.
-  3. When headphones not connected, output both channels to speakers
-22. One USB-C socket (IN) to be used to charge Speakup battery
-23. One USB-C socket (OUT) used to charge host device only when Speakup connected to external power source
-25. Use Feather footprint https://learn.adafruit.com/adafruit-feather/feather-specification
-26. Additional IO programmable using Arduino IDE
+3. no lag or delay between input and output (for example for the Bluetooth device to 'wake')
+4. two switch inputs using 3.5mm through hole jacks (SW1 and SW2) to send character to host device (typically SPACE and ENTER)
+5. PCB contained within a 60mm wide x 90mm wide rectangle
+6. speaker output 5W per channel
+7. connections positioned as per dxf file, see PCB Notes below
+8. volume control on each of two channels to be controlled by an 'Up' and 'Down' tactile button
+9. all connectors to be through hole so board can be supplied without these in place and connectors located on secondary boards elsewhere within a larger enclosure
+10. use one C Lithium battery, size will vary but connected using standard connector
+11. spare IO to be routed through header to the Adafruit Feather specification, see PCB Notes below
+12. soft power switch (PWR)
+13. mounting holes positioned as per dxf file
+14. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
+15. enable Speakup to act as a charger when connected to the host tablet via cable
+16. enable Speakup to act as a keyboard or mouse (using the assistive technology switch inputs and addtional IO) when connected to the host tablet via cable
+17. two 3.5mm jack headphone jack sockets. HEAD1 will output one channel to the headphones when connected and one channel to the speaker. HEAD2 will output both channels to the headphones when connected. When headphones not connected, output both channels to speakers
+18. One USB-C socket (IN) to be used to charge Speakup battery
+19. One USB-C socket (OUT) used to charge host device only when Speakup connected to external power source
+20. Use Feather footprint https://learn.adafruit.com/adafruit-feather/feather-specification
+21. Additional IO programmable using Arduino IDE
 
 ### PCB Notes
 
