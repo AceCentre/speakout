@@ -76,9 +76,8 @@ Option 1 preferred.
 
 ## Timescales
 
-W/C 11/04/2022 PCB development start (3 days)
-W/C 18/04/2022 Order PCB and components for self-assembly, 2 off sample boards
-W/C 02/05/2022 Assemble sample boards (0.5 days)
-W/C 09/05/2022 Order initial production
-W/C 06/05/2022 Test first batch and assemble
-
+  - W/C 11/04/2022 PCB development start (3 days)
+  - W/C 18/04/2022 Order PCB and components for self-assembly, 2 off sample boards
+  - W/C 02/05/2022 Assemble sample boards (0.5 days)
+  - W/C 09/05/2022 Order initial production
+  - W/C 06/05/2022 Test first batch and assemble
