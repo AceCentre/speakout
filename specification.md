@@ -6,6 +6,8 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
 
 ## PCB/Electronic Requirements
 
+Refer to [PCB Layout below](https://github.com/AceCentre/speakup/blob/main/specification.md#pcb-layout).
+
 1. amplify sound input from tablet and provide access to device
 2. connect to tablet using Bluetooth
 4. no lag or delay between input and output (for example for the Bluetooth device to 'wake')
