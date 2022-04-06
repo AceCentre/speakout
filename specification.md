@@ -8,26 +8,30 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
 
   1. amplify sound input from tablet
   2. connect to tablet using Bluetooth
-  3. volume to xdB TBC (equivalent to i13 https://www.tobiidynavox.com/products/i-series?tab=3)
   4. no lag or delay between input and output (for example for the Bluetooth device to 'wake')
   5. two switch inputs (see Switch Interface Wired project) using 3.5mm through hole jacks.
-  6. PCB contained within a 50mm wide x 90mm wide rectangle so it is smaller than iPod Touch (58.6 x 123.4mm)
-  7. USB-C connector on each short edge, centrally positioned.
-  8. speaker unit to be 3W
-  9. left channel volume control via button on long edge of device
-  10. right channel volume control via buttons on long edge of device
+  6. PCB contained within a 60mm wide x 90mm wide rectangle
+  8. speaker output to be 5W per channel
+  9. connections positioned as per dxf file
+  10. Volume control on each of two channels to be controlled by an 'Up' and 'Down' tactile button
   11. all connectors to be through hole so board can be supplied without these in place to wire in externally
   12. use one C Lithium battery, size will vary but connected using standard connector
-  13. spare IO to header
+  13. spare IO to be routed through Adafruit Feather format header
   14. soft power switch
-  15. jack connectors to be on short edge
-  16. 4 off M3 mounting holes
+  16. mounting holes positioned as per dxf file
   17. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
   18. enable Speakup to act as a charger when connected to the host tablet via cable.
   19. enable Speakup to act as a keyboard (using the assistive technology switch inputs) when connected to the host tablet via cable
-  20. sound channels programmable individually, left/right with independent volume control. QUERY/CONFIRM
-  21. A rotary switch or dip switches could be used if user configuration is required, for example to assign characters to the assistive technology switch inputs QUERY/CONFIRM
-  22. Consider use of BLE Broadcast mode to save energy. This has been implemented in this assistive technology switch (https://d3kwnfaq7240hw.cloudfront.net/downloads/10118sv102-aeroswitch-user-guide.pdf) QUERY/CONFIRM
+  20. two 3.5mm jack headphone jack sockets. Socket 1 will output one channel to the headphone and one channel to the speaker when headphone connected. Socket 2 will output both channels when headphone connected. When headphones not connected, both channels directed to speakers
+  21. One USB-C socket to be used to charge Speakup battery
+  22. One USB-C socket used to charge host device only when Speakup connected to external power source
+  23. All external connectors to be through hole
+  24. User Feather footprint https://learn.adafruit.com/adafruit-feather/feather-specification
+
+### PCB Notes
+
+  - board likely to use ESP32 device nominally 25 x 20mm similar to that used on the Feather ESP32 https://www.adafruit.com/product/3405. Antenna is on short edge and needs to be positioned, no circuitry under board.
+  - we're using this jack in our other boards https://uk.rs-online.com/web/p/jack-plugs-sockets/1248885
 
 ## Hardware Requirements
 
@@ -55,3 +59,12 @@ Target assembled PCB price £50.
 ### Audio Configuration
 
 ![Tux, the Linux mascot](/assets/audio-config.png)
+
+## Timescales
+
+W/C 11/04/2022 PCB development start (3 days)
+W/C 18/04/2022 Order PCB and components for self-assembly, 2 off sample boards
+W/C 02/05/2022 Assemble sample boards (0.5 days)
+W/C 09/05/2022 Order initial production
+W/C 06/05/2022 Test first batch and assemble
+
