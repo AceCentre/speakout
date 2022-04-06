@@ -23,9 +23,9 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
   18. enable Speakup to act as a charger when connected to the host tablet via cable
   19. enable Speakup to act as a keyboard or mouse (using the assistive technology switch inputs and addtional IO) when connected to the host tablet via cable
   20. two 3.5mm jack headphone jack sockets:
-    * Socket 1 will output one channel to the headphone and one channel to the speaker when headphone connected.
-    * Socket 2 will output both channels when headphone connected.
-    * When headphones not connected, both channels directed to speakers
+    1. Socket 1 will output one channel to the headphone and one channel to the speaker when headphone connected.
+    2. Socket 2 will output both channels when headphone connected.
+    3. When headphones not connected, both channels directed to speakers
   22. One USB-C socket to be used to charge Speakup battery
   23. One USB-C socket used to charge host device only when Speakup connected to external power source
   24. All external connectors to be through hole
