@@ -27,11 +27,14 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
   22. One USB-C socket used to charge host device only when Speakup connected to external power source
   23. All external connectors to be through hole
   24. User Feather footprint https://learn.adafruit.com/adafruit-feather/feather-specification
+  25. Additional IO programmable using Arduino IDE
 
 ### PCB Notes
 
   - board likely to use ESP32 device nominally 25 x 20mm similar to that used on the Feather ESP32 https://www.adafruit.com/product/3405. Antenna is on short edge and needs to be positioned, no circuitry under board.
   - we're using this jack in our other boards https://uk.rs-online.com/web/p/jack-plugs-sockets/1248885
+  - see pdf/dxf of proposed board layout https://github.com/AceCentre/speakup/tree/main/assets. Option 1 preferred as the required external connectors are all on one edge making placing within the enclosure easier. Board size has increased in size slightly to allow suufficient spacing between connectors and buttons.
+
 
 ## Hardware Requirements
 
