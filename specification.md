@@ -6,28 +6,31 @@ Speakup is a piece of hardware that will attach to a robust, mainstream tablet t
 
 ## PCB/Electronic Requirements
 
-  1. amplify sound input from tablet
+  1. amplify sound input from tablet and provide access to device
   2. connect to tablet using Bluetooth
   4. no lag or delay between input and output (for example for the Bluetooth device to 'wake')
-  5. two switch inputs (see Switch Interface Wired project) using 3.5mm through hole jacks.
+  5. two switch inputs (see Switch Interface Wired project) using 3.5mm through hole jacks
   6. PCB contained within a 60mm wide x 90mm wide rectangle
-  8. speaker output to be 5W per channel
-  9. connections positioned as per dxf file
-  10. Volume control on each of two channels to be controlled by an 'Up' and 'Down' tactile button
-  11. all connectors to be through hole so board can be supplied without these in place to wire in externally
+  8. speaker output 5W per channel
+  9. connections positioned as per dxf file, see PCB Notes below
+  10. volume control on each of two channels to be controlled by an 'Up' and 'Down' tactile button
+  11. all connectors to be through hole so board can be supplied without these in place and connections located on secondary boards elsewhere within a larger enclosure
   12. use one C Lithium battery, size will vary but connected using standard connector
-  13. spare IO to be routed through Adafruit Feather format header
+  13. spare IO to be routed through header to the Adafruit Feather specification, see PCB Notes below
   14. soft power switch
   16. mounting holes positioned as per dxf file
   17. screen printed with project name "Speakup", url "https://acecent.re/eng", part number and revision number (610-006-A) and Ace Centre logo
-  18. enable Speakup to act as a charger when connected to the host tablet via cable.
-  19. enable Speakup to act as a keyboard (using the assistive technology switch inputs) when connected to the host tablet via cable
-  20. two 3.5mm jack headphone jack sockets. Socket 1 will output one channel to the headphone and one channel to the speaker when headphone connected. Socket 2 will output both channels when headphone connected. When headphones not connected, both channels directed to speakers
-  21. One USB-C socket to be used to charge Speakup battery
-  22. One USB-C socket used to charge host device only when Speakup connected to external power source
-  23. All external connectors to be through hole
-  24. User Feather footprint https://learn.adafruit.com/adafruit-feather/feather-specification
-  25. Additional IO programmable using Arduino IDE
+  18. enable Speakup to act as a charger when connected to the host tablet via cable
+  19. enable Speakup to act as a keyboard or mouse (using the assistive technology switch inputs and addtional IO) when connected to the host tablet via cable
+  20. two 3.5mm jack headphone jack sockets:
+    * Socket 1 will output one channel to the headphone and one channel to the speaker when headphone connected.
+    * Socket 2 will output both channels when headphone connected.
+    * When headphones not connected, both channels directed to speakers
+  22. One USB-C socket to be used to charge Speakup battery
+  23. One USB-C socket used to charge host device only when Speakup connected to external power source
+  24. All external connectors to be through hole
+  25. User Feather footprint https://learn.adafruit.com/adafruit-feather/feather-specification
+  26. Additional IO programmable using Arduino IDE
 
 ### PCB Notes
 
