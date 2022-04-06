@@ -1,4 +1,4 @@
-# Generic Tablet Back Box
+# Generic Tablet Speaker Box
 
 Many devices used for AAC utilise standard hardware in a specially developed case. Some of these cases are intended to hold specific tablets and add specific functionality such as higher volume and the ability to connect input switches for example.
 
